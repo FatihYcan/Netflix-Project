@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Kanit:wght@400;500;600;700;800;900&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NET<span>FLIX</span></h1>
+      <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+      <form action="">
+        <label for="name">Name</label><br />
+        <input type="text" id="name" placeholder="Enter your name" /><br />
+        <label for="age">Age</label><br />
+        <input type="number" id="age" placeholder="Age" /><br />
+        <label for="email">Email</label><br />
+        <input type="email" id="email" placeholder="Enter your e-mail" /><br />
+        <label for="content-type">Content Type</label><br />
+        <select name="content" id="content-type">
+          <option value="series">Series</option>
+          <option value="movies">Movies</option></select
+        ><br /><br />
+        <label for="movie">Movie Type</label><br />
+        <input type="checkbox" id="movie" />Comedy<br />
+        <input type="checkbox" id="movie" />Action<br />
+        <input type="checkbox" id="movie" checked />Romantic<br /><br />
+        <label for="gender">Gender</label><br />
+        <input type="radio" id="gender" name="gender" />Male<br />
+        <input type="radio" id="gender" name="gender" />Female<br />
+        <input type="radio" id="gender" name="gender" />Other<br /><br />
+        <label for="feedback">Feedback</label><br /><br />
+        <textarea
+          name=""
+          id="feedback"
+          cols="30"
+          rows="5"
+          placeholder="Any comment"
+        ></textarea
+        ><br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
