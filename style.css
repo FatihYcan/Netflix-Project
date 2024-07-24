@@ -13,9 +13,7 @@ body {
 .container {
   background-color: rgba(0, 0, 0, 0.507);
   width: 93%;
-  height: 95vh;
   margin: 10px auto;
-
   color: white;
   font-family: "Kanit", sans-serif;
   text-align: center;
