@@ -1,23 +1,21 @@
 # Netflix Signup Form
 
-A simple signup form styled with HTML and CSS for Netflix.
+This project includes a simple form that allows users to enter information about themselves when signing up for Netflix. Users can provide information such as name, age, email address, content type, movie genres, gender and feedback.
 
-## Project Structure
+## Technologies Used
 
-- `index.html`: Contains the HTML structure of the signup form.
-- `style.css`: Includes the CSS styles for the form and page layout.
-- `img/background_image.jpg`: Background image used in the form.
+- HTML5
+- CSS3
+- Google Fonts
 
-# Netflix Kayıt Formu
+# Netflix Signup Form
 
-Netflix için HTML ve CSS ile tasarlanmış basit bir kayıt formu.
+Bu proje, kullanıcıların Netflix'e kaydolurken kendileri hakkında bilgi girmelerini sağlayan basit bir form içerir. Kullanıcılar isim, yaş, e-posta adresi, içerik türü, film türleri, cinsiyet ve geri bildirim gibi bilgileri sağlayabilirler.
 
-## Proje Yapısı
+## Kullanılan Teknolojiler
 
-- `index.html`: Kayıt formunun HTML yapısını içerir.
-- `style.css`: Form ve sayfa düzeni için CSS stillerini içerir.
-- `img/background_image.jpg`: Formda kullanılan arka plan resmi.
-
-## Ekran Görüntüsü
+- HTML5
+- CSS3
+- Google Fonts
 
 ![Ekran Görüntüsü](./img/netflix.jpg)
